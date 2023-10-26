@@ -1,0 +1,1409 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>各版本網上聖經捷徑</title>
+<style>
+a:link, a:visited {
+  background-color: #007755;
+  color: white;
+  padding: 3px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #009999;
+}
+
+</style>
+</head>
+
+<body>
+
+<table border='1' style='border-collapse:collapse' cellpadding="3" cellspacing="3">
+<tr><td colspan="2"><input type="text" id="manin" name="manin" size="58" oninput="ppppp()" placeholder="可在此貼上書章節（格式須如：詩一零零1、詩一三九1-6、太六9-13）"/></td><td rowspan="2">
+    版本1<br />
+  <select id="version" name="version" size="27">
+<option value="unv" selected="selected"> 和合本 </option>
+<option value="rcuv"> 和合本修訂版 </option>
+<option value="tcv2019"> 現代中文譯本 2019版 </option>
+<option value="recover"> 恢復本 </option>
+<option value="lcc"> 呂振中譯本 </option>
+<option value="ofm"> 思高譯本 </option>
+<option value="csb"> 中文標準譯本 (限新約) </option>
+<option value="cbol"> 原文直譯 </option>
+<option value="tcv95"> 現代中文譯本 1995版 </option>
+<option value="cnet"> NET聖經中譯本 </option>
+<option value="kjv"> KJV (King James Version) </option>
+<option value="asv"> ASV (American Standard Version) </option>
+<option value="bbe"> BBE (Bible in Basic English) </option>
+<option value="web"> WEB (World English Bible) </option>
+<option value="erv"> ERV (Easy-to-Read Version) </option>
+<option value="fhlwh"> 新約原文 </option> 
+<option value="ncv"> 新譯本 </option>
+  </select>
+</td><td rowspan="2">
+    版本2<br />
+  <select id="version2" name="version2" size="27">
+<option value="" selected="selected"> --- </option>
+<option value="unv"> 和合本 </option>
+<option value="rcuv"> 和合本修訂版 </option>
+<option value="tcv2019"> 現代中文譯本 2019版 </option>
+<option value="recover"> 恢復本 </option>
+<option value="lcc"> 呂振中譯本 </option>
+<option value="ofm"> 思高譯本 </option>
+<option value="csb"> 中文標準譯本 (限新約) </option>
+<option value="cbol"> 原文直譯 </option>
+<option value="tcv95"> 現代中文譯本 1995版 </option>
+<option value="cnet"> NET聖經中譯本 </option>
+<option value="kjv"> KJV (King James Version) </option>
+<option value="asv"> ASV (American Standard Version) </option>
+<option value="bbe"> BBE (Bible in Basic English) </option>
+<option value="web"> WEB (World English Bible) </option>
+<option value="erv"> ERV (Easy-to-Read Version) </option>
+<option value="fhlwh"> 新約原文 </option> 
+  </select>
+</td><td rowspan="2">
+    版本3<br />
+  <select id="version3" name="version3" size="27">
+<option value="" selected="selected"> --- </option>
+<option value="unv"> 和合本 </option>
+<option value="rcuv"> 和合本修訂版 </option>
+<option value="tcv2019"> 現代中文譯本 2019版 </option>
+<option value="recover"> 恢復本 </option>
+<option value="lcc"> 呂振中譯本 </option>
+<option value="ofm"> 思高譯本 </option>
+<option value="csb"> 中文標準譯本 (限新約) </option>
+<option value="cbol"> 原文直譯 </option>
+<option value="tcv95"> 現代中文譯本 1995版 </option>
+<option value="cnet"> NET聖經中譯本 </option>
+<option value="kjv"> KJV (King James Version) </option>
+<option value="asv"> ASV (American Standard Version) </option>
+<option value="bbe"> BBE (Bible in Basic English) </option>
+<option value="web"> WEB (World English Bible) </option>
+<option value="erv"> ERV (Easy-to-Read Version) </option>
+<option value="fhlwh"> 新約原文 </option> 
+  </select>
+</td><td rowspan="2">
+    版本4<br />
+  <select id="version4" name="version4" size="27">
+<option value="" selected="selected"> --- </option>
+<option value="unv"> 和合本 </option>
+<option value="rcuv"> 和合本修訂版 </option>
+<option value="tcv2019"> 現代中文譯本 2019版 </option>
+<option value="recover"> 恢復本 </option>
+<option value="lcc"> 呂振中譯本 </option>
+<option value="ofm"> 思高譯本 </option>
+<option value="csb"> 中文標準譯本 (限新約) </option>
+<option value="cbol"> 原文直譯 </option>
+<option value="tcv95"> 現代中文譯本 1995版 </option>
+<option value="cnet"> NET聖經中譯本 </option>
+<option value="kjv"> KJV (King James Version) </option>
+<option value="asv"> ASV (American Standard Version) </option>
+<option value="bbe"> BBE (Bible in Basic English) </option>
+<option value="web"> WEB (World English Bible) </option>
+<option value="erv"> ERV (Easy-to-Read Version) </option>
+<option value="fhlwh"> 新約原文 </option> 
+  </select>
+</td>
+<td rowspan="3" width="400">
+    <u>BibleGateway</u><br />&nbsp;<br />
+      <select id="versionBG" name="versionBG" size="11">
+<option value="NIV" selected="selected"> NIV - New International Version </option>
+<option value="AMP"> AMP - Amplified Bible </option>
+<option value="CSB"> CSB - Christian Standard Bible </option>
+<option value="CEB"> CSB - Common English Bible </option>
+<option value="CEV"> CEB - Comtemporary English Bible </option>
+<option value="ESV"> ESV - English Standard Version </option>
+<option value="MSG"> MSG - The Message </option>
+<option value="NASB"> NASB - New American Standard Bible </option>
+<option value="NET"> NET - New English Translation </option>
+<option value="NIRV"> NIRV - New International Reader's Version </option>
+<option value="YLT"> YLT - Young's Literal Translation </option>
+<option value="CCBT"> 聖經當代譯本修訂版 </option>
+<option value="CUVMPT"> 和合本 </option>
+<option value="RCU17TS"> 和合本修訂版 </option>
+<option value="CNVT"> 新譯本 </option>
+<option value="CSBT"> 中文標準譯本 </option>
+  </select><br />
+<button type="button" onclick="loadDocEn1()">多版本 (限一節)</button>&nbsp;<br />
+
+<br />
+<input type="text" id="titleEn" placeholder="標題" size="30" readonly="readonly" />　<a href="" target="_blank" id="BGlink">在新分頁開啟</a>
+<br />
+&nbsp;<br />
+    
+
+<iframe src="about:blank" id="iframe_bg" name="iframe_bg" height="400" width="475" title="Iframe Example"></iframe>
+</td></tr>
+<tr valign="top">
+<td>
+  <select id="chineses" name="chineses" size="28">
+<option disabled="disabled"> --- 舊約 Old Testament --- </option>
+<option value="創" selected="selected"> 創世記 (Genesis) </option>
+<option value="出"> 出埃及記 (Exodus) </option>
+<option value="利"> 利未記 (Leviticus) </option>
+<option value="民"> 民數記 (Numbers) </option>
+<option value="申"> 申命記 (Deuteronomy) </option>
+<option value="書"> 約書亞記 (Joshua) </option>
+<option value="士"> 士師記 (Judges) </option>
+<option value="得"> 路得記 (Ruth) </option>
+<option value="撒上"> 撒母耳記上 (First Samuel) </option>
+<option value="撒下"> 撒母耳記下 (Second Samuel) </option>
+<option value="王上"> 列王紀上 (First Kings) </option>
+<option value="王下"> 列王紀下 (Second Kings) </option>
+<option value="代上"> 歷代志上 (First Chronicles) </option>
+<option value="代下"> 歷代志下 (Second Chronicles) </option>
+<option value="拉"> 以斯拉記 (Ezra) </option>
+<option value="尼"> 尼希米記 (Nehemiah) </option>
+<option value="斯"> 以斯帖記 (Esther) </option>
+<option value="伯"> 約伯記 (Job) </option>
+<option value="詩"> 詩篇 (Psalms) </option>
+<option value="箴"> 箴言 (Proverbs) </option>
+<option value="傳"> 傳道書 (Ecclesiastes) </option>
+<option value="歌"> 雅歌 (Song of Solomon) </option>
+<option value="賽"> 以賽亞書 (Isaiah) </option>
+<option value="耶"> 耶利米書 (Jeremiah) </option>
+<option value="哀"> 耶利米哀歌 (Lamentations) </option>
+<option value="結"> 以西結書 (Ezekiel) </option>
+<option value="但"> 但以理書 (Daniel) </option>
+<option value="何"> 何西阿書 (Hosea) </option>
+<option value="珥"> 約珥書 (Joel) </option>
+<option value="摩"> 阿摩司書 (Amos) </option>
+<option value="俄"> 俄巴底亞書 (Obadiah) </option>
+<option value="拿"> 約拿書 (Jonah) </option>
+<option value="彌"> 彌迦書 (Micah) </option>
+<option value="鴻"> 那鴻書 (Nahum) </option>
+<option value="哈"> 哈巴谷書 (Habakkuk) </option>
+<option value="番"> 西番雅書 (Zephaniah) </option>
+<option value="該"> 哈該書 (Haggai) </option>
+<option value="亞"> 撒迦利亞書 (Zechariah) </option>
+<option value="瑪"> 瑪拉基書 (Malachi) </option>
+<option disabled="disabled"> --- 新約 New Testament --- </option>
+<option value="太"> 馬太福音 (Matthew) </option>
+<option value="可"> 馬可福音 (Mark) </option>
+<option value="路"> 路加福音 (Luke) </option>
+<option value="約"> 約翰福音 (John) </option>
+<option value="徒"> 使徒行傳 (Acts) </option>
+<option value="羅"> 羅馬書 (Romans) </option>
+<option value="林前"> 哥林多前書 (First Corinthians) </option>
+<option value="林後"> 哥林多後書 (Second Corinthians) </option>
+<option value="加"> 加拉太書 (Galatians) </option>
+<option value="弗"> 以弗所書 (Ephesians) </option>
+<option value="腓"> 腓立比書 (Philippians) </option>
+<option value="西"> 歌羅西書 (Colossians) </option>
+<option value="帖前"> 帖撒羅尼迦前書 (First Thessalonians) </option>
+<option value="帖後"> 帖撒羅尼迦後書 (Second Thessalonians) </option>
+<option value="提前"> 提摩太前書 (First Timothy) </option>
+<option value="提後"> 提摩太後書 (Second Timothy) </option>
+<option value="多"> 提多書 (Titus) </option>
+<option value="門"> 腓利門書 (Philemon) </option>
+<option value="來"> 希伯來書 (Hebrews) </option>
+<option value="雅"> 雅各書 (James) </option>
+<option value="彼前"> 彼得前書 (First Peter) </option>
+<option value="彼後"> 彼得後書 (Second Peter) </option>
+<option value="約一"> 約翰一書 (First John) </option>
+<option value="約二"> 約翰二書 (second John) </option>
+<option value="約三"> 約翰三書 (Third John) </option>
+<option value="猶"> 猶大書 (Jude) </option>
+<option value="啟"> 啟示錄 (Revelation) </option>
+
+  </select> 
+</td><td>&nbsp;<br />
+  <label for="chap">章:</label>
+  <input type="text" id="chap" name="chap" size="10" /><br />&nbsp;<br />
+
+  <label for="sec">節:</label>
+  <input type="text" id="sec" name="sec" size="10" /><br />&nbsp;<br />
+
+  <label for="gb">簡體中文:</label>
+  <input type="checkbox" id="gb" name="gb" /><br />&nbsp;<br />
+
+  <input type="hidden" id="strong" value ="0" />
+&nbsp;<br />&nbsp;<button type="button" id="loadlah" onclick="loadDoc()">&nbsp;<br />　　載　入　經　文　　<br /><br />及<br /><br />　　更　新　連　結　　<br />&nbsp;</button>&nbsp;
+<br />&nbsp;<br />&nbsp;<br /><a href="" target="_blank" id="link00">四版本在新分頁開啟</a><br />&nbsp;<br />
+
+</td>
+</tr>
+
+<tr valign="top"><td>&nbsp;<br /><u>新譯本用</u><br />&nbsp;<br />
+<iframe src="about:blank" id="iframe_a" name="iframe_a" height="50" width="247" title="Iframe Example"></iframe> <br />
+<textarea id="f_b" rows="3" cols="31" placeholder="全選複製上方原始數據
+於此文字區域貼上" oninput="loadDoc1c()" style="resize: none;"></textarea>
+&nbsp;<br /></td>
+    <td colspan="2">版本1 <a href="" target="_blank" id="link01">在新分頁開啟</a><br />&nbsp;<br />
+<button type="button" id="ct1" onclick="ct1()">複製標題</button> <input type="text" id="title" placeholder="標題" size="30" readonly />
+<br /><br /><button type="button" id="cc1" onclick="cc1()">複製經文</button><br />
+<textarea id="context" rows="6" cols="50" placeholder="經文" readonly></textarea>
+&nbsp;<br /></td>
+    <td>版本2 <a href="" target="_blank" id="link02">在新分頁開啟</a><br />&nbsp;<br />
+<button type="button" id="ct2" onclick="ct2()">複製標題</button> <input type="text" id="title2" placeholder="標題" size="15" readonly />
+<br /><br /><button type="button" id="cc2" onclick="cc2()">複製經文</button><br />
+<textarea id="context2" rows="6" cols="28" placeholder="經文" readonly></textarea>
+&nbsp;<br /></td>
+    <td>版本3 <a href="" target="_blank" id="link03">在新分頁開啟</a><br />&nbsp;<br />
+<button type="button" id="ct3" onclick="ct3()">複製標題</button> <input type="text" id="title3" placeholder="標題" size="15" readonly />
+<br /><br /><button type="button" id="cc3" onclick="cc3()">複製經文</button><br />
+<textarea id="context3" rows="6" cols="28" placeholder="經文" readonly></textarea>
+&nbsp;<br /></td>
+    <td>版本4 <a href="" target="_blank" id="link04">在新分頁開啟</a><br />&nbsp;<br />
+<button type="button" id="ct4" onclick="ct4()">複製標題</button> <input type="text" id="title4" placeholder="標題" size="15" readonly />
+<br /><br /><button type="button" id="cc4" onclick="cc4()">複製經文</button><br />
+<textarea id="context4" rows="6" cols="28" placeholder="經文" readonly></textarea>
+&nbsp;<br /></td></tr>
+<tr><td>講章格式： <!--<button type="button" id="cc1d" onclick="cc1d()">複製</button>--></td>
+<td colspan=6><div id="doccontext" style="width: 100%; height: 120px; overflow-y: scroll;">經文</div> </td></tr>
+</table>
+
+<script>
+const tttt = {unv:"和合本",kjv:"KJV",bbe:"BBE",asv:"ASV",web:"WEB",erv:"ERV",recover:"恢復本",cnet:"NET聖經中譯本",tcv95:"現中譯1995",tcv2019:"現中譯",rcuv:"和修版",lcc:"呂振中譯本",ofm:"思高譯本",cbol:"原文直譯",ncv:"新譯本",csb:"中文標準譯本"};
+    
+const bbbbEn = {"創":"Genesis","出":"Exodus","利":"Leviticus","民":"Numbers","申":"Deuteronomy","書":"Joshua","士":"Judges","得":"Ruth","撒上":"1 Samuel","撒下":"2 Samuel","王上":"1 Kings","王下":"2 Kings","代上":"1 Chronicles","代下":"2 Chronicles","拉":"Ezra","尼":"Nehemiah","斯":"Esther","伯":"Job","詩":"Psalms","箴":"Proverbs","傳":"Ecclesiastes","歌":"Song of Solomon","賽":"Isaiah","耶":"Jeremiah","哀":"Lamentations","結":"Ezekiel","但":"Daniel","何":"Hosea","珥":"Joel","摩":"Amos","俄":"Obadiah","拿":"Jonah","彌":"Micah","鴻":"Nahum","哈":"Habakkuk","番":"Zephaniah","該":"Haggai","亞":"Zechariah","瑪":"Malachi","太":"Matthew","可":"Mark","路":"Luke","約":"John","徒":"Acts","羅":"Romans","林前":"1 Corinthians","林後":"2 Corinthians","加":"Galatians","弗":"Ephesians","腓":"Philippians","西":"Colossians","帖前":"1 Thessalonians","帖後":"2 Thessalonians","提前":"1 Timothy","提後":"2 Timothy","多":"Titus","門":"Philemon","來":"Hebrews","雅":"James","彼前":"1 Peter","彼後":"2 Peter","約一":"1 John","約二":"2 John","約三":"3 John","猶":"Jude","啟":"Revelation"};
+
+aa2237 = "";
+
+function loadDoc() {
+    if(document.getElementById("version").value != "ncv") {
+		const xhttp = new XMLHttpRequest();
+		xhttp.onload = function() {
+
+			aa123123 = this.responseText.replace(/<[0-9A-Za-z/]*>/g,"");
+			//console.log(aa123123);
+			aaobj = JSON.parse(aa123123.replace(/[\u3000\u000A\u000D]+/g,""));
+			//aaobj = eval("(" + aa123123.replace(/[\u3000\u000A\u000D]+/g,"") + ")");
+			aa2234 = "";
+			aa2237 = "";
+
+			aa2233 = "<font style=\"font-family:DFKai-SB\">「";
+
+			for(i=0;i<aaobj.record_count;i++) {
+				aa2234 += (aaobj.record_count>1?aaobj.record[i].sec + "\t":"") + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"") + "\r\n";
+				aa2233 += "<sup><font style=\"font-family:Times New Roman\">" + (aaobj.record_count>1?aaobj.record[i].sec:"") + "</font></sup>" + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"").replace(/<[0-9A-Za-z/]*>/g,"").replace(/【[0-9A-Za-z/]*】/g,"");
+			}
+			aa2233 += "」" + "\t";
+			//aa2234 = aa2234.replace(/[\u3000\u000A\u000D]+/g,"");
+			aa2234 = aa2234.replace(/─/g,"——");
+			aa2234 = aa2234.replace(/<[0-9A-Za-z/]*>/g,"");
+			aa2234 = aa2234.replace(/【[0-9A-Za-z/]*】/g,"");
+			aa2234 = aa2234.replace(/上帝/g,"神");
+			aa2233 = aa2233.replace(/─/g,"——");
+			aa2233 = aa2233.replace(/上帝/g,"神");
+
+			document.getElementById("context").innerHTML = aa2234;
+			aa2235 = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + " (" + tttt[document.getElementById("version").value] + ")";
+			
+			aa2236 = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + "<font style=\"font-family:'Times New Roman'\">" + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + "</font>(" + tttt[document.getElementById("version").value] + ")";
+			
+			document.getElementById("title").value = aa2235;
+			
+			document.getElementById("doccontext").innerHTML = "<font style=\"font-size:12pt\">" + aa2233 + "<b><u>" + aa2236 + "</u></b></font></font>";
+			
+			document.getElementById("titleEn").value = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + " (" + document.getElementById("versionBG").value + ")";
+
+		}
+		
+		xhttp.open("GET", "https://bible.fhl.net/json/qb.php?chineses=" + document.getElementById("chineses").value + "&chap=" + document.getElementById("chap").value + "&sec=" + document.getElementById("sec").value + "&version=" + document.getElementById("version").value + "&gb=" + (document.getElementById('gb').checked?1:0) + "&strong=" + document.getElementById("strong").value);
+		xhttp.send();
+		
+	} else {
+		document.getElementById("titleEn").value = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-末節":document.getElementById("sec").value) + " (" + document.getElementById("versionBG").value + ")";
+       loadDoc1();
+
+    }
+	
+	document.getElementById("link01").setAttribute("href", "https://bible.fhl.net/new/read.php?VERSION1=" + document.getElementById("version").value + "&chineses=" + document.getElementById("chineses").value + "&chap=" + (document.getElementById("chap").value==""?1:document.getElementById("chap").value) + "&sec=" + document.getElementById("sec").value + "&strongflag=" + document.getElementById("strong").value + "&TABFLAG=0");
+	
+    if(document.getElementById("version2").value != "") 
+        loadDoc2();
+    else {
+        document.getElementById("context2").innerHTML = "";
+        document.getElementById("title2").value = "";
+    }
+	document.getElementById("link02").setAttribute("href", "https://bible.fhl.net/new/read.php?VERSION1=" + document.getElementById("version2").value + "&chineses=" + document.getElementById("chineses").value + "&chap=" + (document.getElementById("chap").value==""?1:document.getElementById("chap").value) + "&sec=" + document.getElementById("sec").value + "&strongflag=" + document.getElementById("strong").value + "&TABFLAG=0");
+    if(document.getElementById("version3").value != "") 
+        loadDoc3();
+    else {
+        document.getElementById("context3").innerHTML = "";
+        document.getElementById("title3").value = "";   
+    }
+	document.getElementById("link03").setAttribute("href", "https://bible.fhl.net/new/read.php?VERSION1=" + document.getElementById("version3").value + "&chineses=" + document.getElementById("chineses").value + "&chap=" + (document.getElementById("chap").value==""?1:document.getElementById("chap").value) + "&sec=" + document.getElementById("sec").value + "&strongflag=" + document.getElementById("strong").value + "&TABFLAG=0");
+   if(document.getElementById("version4").value != "") 
+        loadDoc4();
+    else {
+        document.getElementById("context4").innerHTML = "";
+        document.getElementById("title4").value = "";   
+    }
+	document.getElementById("link04").setAttribute("href", "https://bible.fhl.net/new/read.php?VERSION1=" + document.getElementById("version4").value + "&chineses=" + document.getElementById("chineses").value + "&chap=" + (document.getElementById("chap").value==""?1:document.getElementById("chap").value) + "&sec=" + document.getElementById("sec").value + "&strongflag=" + document.getElementById("strong").value + "&TABFLAG=0");
+	
+	document.getElementById("link00").setAttribute("href", "https://bible.fhl.net/new/read.php?VERSION1=" + document.getElementById("version").value + "&VERSION2=" + document.getElementById("version2").value + "&VERSION3=" + document.getElementById("version3").value + "&VERSION4=" + document.getElementById("version4").value + "&chineses=" + document.getElementById("chineses").value + "&chap=" + (document.getElementById("chap").value==""?1:document.getElementById("chap").value) + "&sec=" + document.getElementById("sec").value + "&strongflag=" + document.getElementById("strong").value + "&TABFLAG=1");
+	
+	
+	loadDocEn();
+    document.getElementById("f_b").value = "";
+}
+  
+function loadDoc2() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    
+	
+    aa123123 = this.responseText.replace(/<[0-9A-Za-z/]*>/g,"");
+	//console.log(aa123123);
+    aaobj = JSON.parse(aa123123.replace(/[\u3000\u000A\u000D]+/g,""));
+    //aaobj = eval("(" + aa123123.replace(/[\u3000\u000A\u000D]+/g,"") + ")");
+    aa2234 = "";
+/*
+    for(i=0;i<aaobj.record_count;i++) 
+    aa2234 += (aaobj.record_count>1?aaobj.record[i].sec + "\t":"") + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"") + "\r\n";
+    //aa2234 = aa2234.replace(/[\u3000\u000A\u000D]+/g,"");
+    aa2234 = aa2234.replace(/─/g,"——");
+    aa2234 = aa2234.replace(/<[0-9A-Za-z/]*>/g,"");
+    aa2234 = aa2234.replace(/【[0-9A-Za-z/]*】/g,"");
+    aa2234 = aa2234.replace(/上帝/g,"神");
+	
+*/
+			aa2233 = "<font style=\"font-family:DFKai-SB\">「";
+
+			for(i=0;i<aaobj.record_count;i++) {
+				aa2234 += (aaobj.record_count>1?aaobj.record[i].sec + "\t":"") + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"") + "\r\n";
+				aa2233 += "<sup><font style=\"font-family:Times New Roman\">" + (aaobj.record_count>1?aaobj.record[i].sec:"") + "</font></sup>" + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"").replace(/<[0-9A-Za-z/]*>/g,"").replace(/【[0-9A-Za-z/]*】/g,"");
+			}
+			aa2233 += "」" + "\t";
+			//aa2234 = aa2234.replace(/[\u3000\u000A\u000D]+/g,"");
+			aa2234 = aa2234.replace(/─/g,"——");
+			aa2234 = aa2234.replace(/<[0-9A-Za-z/]*>/g,"");
+			aa2234 = aa2234.replace(/【[0-9A-Za-z/]*】/g,"");
+			aa2234 = aa2234.replace(/上帝/g,"神");
+			aa2233 = aa2233.replace(/─/g,"——");
+			aa2233 = aa2233.replace(/上帝/g,"神");
+
+    document.getElementById("context2").innerHTML = aa2234;
+    document.getElementById("title2").value = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + 
+(document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + " (" + tttt[document.getElementById("version2").value]
+ + ")";
+ 
+ 			
+			aa2236 = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + "<font style=\"font-family:'Times New Roman'\">" + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + "</font>(" + tttt[document.getElementById("version2").value] + ")";
+			
+ 
+	aa2237 += "<br><br><font style=\"font-size:12pt\">" + aa2233 + "<b><u>" + aa2236 + "</u></b></font></font>";
+	document.getElementById("doccontext").innerHTML += aa2237;
+ 
+  }
+  xhttp.open("GET", "https://bible.fhl.net/json/qb.php?chineses=" + document.getElementById("chineses").value + "&chap=" + document.getElementById("chap").value + "&sec=" + document.getElementById("sec").value + "&version=" + document.getElementById("version2").value + "&gb=" + (document.getElementById('gb').checked?1:0) + "&strong=" + document.getElementById("strong").value);
+  xhttp.send();
+}
+   
+    
+function loadDoc3() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    
+	
+    aa123123 = this.responseText.replace(/<[0-9A-Za-z/]*>/g,"");
+	//console.log(aa123123);
+    aaobj = JSON.parse(aa123123.replace(/[\u3000\u000A\u000D]+/g,""));
+    //aaobj = eval("(" + aa123123.replace(/[\u3000\u000A\u000D]+/g,"") + ")");
+    aa2234 = "";
+/*
+    for(i=0;i<aaobj.record_count;i++) 
+    aa2234 += (aaobj.record_count>1?aaobj.record[i].sec + "\t":"") + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"") + "\r\n";
+    //aa2234 = aa2234.replace(/[\u3000\u000A\u000D]+/g,"");
+    aa2234 = aa2234.replace(/─/g,"——");
+    aa2234 = aa2234.replace(/<[0-9A-Za-z/]*>/g,"");
+    aa2234 = aa2234.replace(/【[0-9A-Za-z/]*】/g,"");
+    aa2234 = aa2234.replace(/上帝/g,"神");
+*/
+			aa2233 = "<font style=\"font-family:DFKai-SB\">「";
+
+			for(i=0;i<aaobj.record_count;i++) {
+				aa2234 += (aaobj.record_count>1?aaobj.record[i].sec + "\t":"") + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"") + "\r\n";
+				aa2233 += "<sup><font style=\"font-family:Times New Roman\">" + (aaobj.record_count>1?aaobj.record[i].sec:"") + "</font></sup>" + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"").replace(/<[0-9A-Za-z/]*>/g,"").replace(/【[0-9A-Za-z/]*】/g,"");
+			}
+			aa2233 += "」" + "\t";
+			//aa2234 = aa2234.replace(/[\u3000\u000A\u000D]+/g,"");
+			aa2234 = aa2234.replace(/─/g,"——");
+			aa2234 = aa2234.replace(/<[0-9A-Za-z/]*>/g,"");
+			aa2234 = aa2234.replace(/【[0-9A-Za-z/]*】/g,"");
+			aa2234 = aa2234.replace(/上帝/g,"神");
+			aa2233 = aa2233.replace(/─/g,"——");
+			aa2233 = aa2233.replace(/上帝/g,"神");
+
+    document.getElementById("context3").innerHTML = aa2234;
+    document.getElementById("title3").value = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + " (" + tttt[document.getElementById("version3").value] + ")";
+	
+				
+			aa2236 = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + "<font style=\"font-family:'Times New Roman'\">" + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + "</font>(" + tttt[document.getElementById("version3").value] + ")";
+			
+	
+	
+	aa2237 += "<br><br><font style=\"font-size:12pt\">" + aa2233 + "<b><u>" + aa2236 + "</u></b></font></font>";
+	document.getElementById("doccontext").innerHTML += aa2237;
+  }
+
+  xhttp.open("GET", "https://bible.fhl.net/json/qb.php?chineses=" + document.getElementById("chineses").value + "&chap=" + document.getElementById("chap").value + "&sec=" + document.getElementById("sec").value + "&version=" + document.getElementById("version3").value + "&gb=" + (document.getElementById('gb').checked?1:0) + "&strong=" + document.getElementById("strong").value);
+  xhttp.send();
+}
+
+function loadDoc4() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    
+	
+    aa123123 = this.responseText.replace(/<[0-9A-Za-z/]*>/g,"");
+	//console.log(aa123123);
+    aaobj = JSON.parse(aa123123.replace(/[\u3000\u000A\u000D]+/g,""));
+    //aaobj = eval("(" + aa123123.replace(/[\u3000\u000A\u000D]+/g,"") + ")");
+    aa2234 = "";
+	
+/*
+    for(i=0;i<aaobj.record_count;i++) 
+    aa2234 += (aaobj.record_count>1?aaobj.record[i].sec + "\t":"") + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"") + "\r\n";
+    //aa2234 = aa2234.replace(/[\u3000\u000A\u000D]+/g,"");
+    aa2234 = aa2234.replace(/─/g,"——");
+    aa2234 = aa2234.replace(/<[0-9A-Za-z/]*>/g,"");
+    aa2234 = aa2234.replace(/【[0-9A-Za-z/]*】/g,"");
+    aa2234 = aa2234.replace(/上帝/g,"神");
+*/
+
+			aa2233 = "<font style=\"font-family:DFKai-SB\">「";
+
+			for(i=0;i<aaobj.record_count;i++) {
+				aa2234 += (aaobj.record_count>1?aaobj.record[i].sec + "\t":"") + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"") + "\r\n";
+				aa2233 += "<sup><font style=\"font-family:Times New Roman\">" + (aaobj.record_count>1?aaobj.record[i].sec:"") + "</font></sup>" + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"").replace(/<[0-9A-Za-z/]*>/g,"").replace(/【[0-9A-Za-z/]*】/g,"");
+			}
+			aa2233 += "」" + "\t";
+			//aa2234 = aa2234.replace(/[\u3000\u000A\u000D]+/g,"");
+			aa2234 = aa2234.replace(/─/g,"——");
+			aa2234 = aa2234.replace(/<[0-9A-Za-z/]*>/g,"");
+			aa2234 = aa2234.replace(/【[0-9A-Za-z/]*】/g,"");
+			aa2234 = aa2234.replace(/上帝/g,"神");
+			aa2233 = aa2233.replace(/─/g,"——");
+			aa2233 = aa2233.replace(/上帝/g,"神");
+			
+    document.getElementById("context4").innerHTML = aa2234;
+    document.getElementById("title4").value = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + " (" + tttt[document.getElementById("version4").value] + ")";
+	
+				
+			aa2236 = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + "<font style=\"font-family:'Times New Roman'\">" + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + "</font>(" + tttt[document.getElementById("version4").value] + ")";
+			
+	
+	
+	aa2237 += "<br><br><font style=\"font-size:12pt\">" + aa2233 + "<b><u>" + aa2236 + "</u></b></font></font>";
+	document.getElementById("doccontext").innerHTML += aa2237;
+  }
+
+  xhttp.open("GET", "https://bible.fhl.net/json/qb.php?chineses=" + document.getElementById("chineses").value + "&chap=" + document.getElementById("chap").value + "&sec=" + document.getElementById("sec").value + "&version=" + document.getElementById("version4").value + "&gb=" + (document.getElementById('gb').checked?1:0) + "&strong=" + document.getElementById("strong").value);
+  xhttp.send();
+}
+   
+function loadDoc1() {
+    
+    window.open("https://bible.fhl.net/json/qb.php?chineses=" + document.getElementById("chineses").value + "&chap=" + document.getElementById("chap").value + "&sec=" + document.getElementById("sec").value + "&version=" + document.getElementById("version").value + "&gb=" + (document.getElementById('gb').checked?1:0) + "&strong=" + document.getElementById("strong").value, "iframe_a")
+	
+    document.getElementById("context").innerHTML = "";
+    document.getElementById("doccontext").innerHTML = "";
+    document.getElementById("title").value = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-":document.getElementById("sec").value) + " (" + tttt[document.getElementById("version").value] + ")";    
+}
+    
+function loadDoc1c() {
+    
+	if (document.getElementById("f_b").value == "")
+		return;
+	
+    frameContent = "";
+    
+    frameContent = document.getElementById("f_b").value;
+        
+    aa123123 = frameContent.replace(/<[0-9A-Za-z/]*>/g,"");
+	//console.log(aa123123);
+    aaobj = JSON.parse(aa123123.replace(/[\u3000\u000A\u000D]+/g,""));
+    //aaobj = eval("(" + aa123123.replace(/[\u3000\u000A\u000D]+/g,"") + ")");
+    aa2234 = "";
+    aa2233 = "<font style=\"font-family:DFKai-SB\">「";
+
+    for(i=0;i<aaobj.record_count;i++) {
+		aa2234 += (aaobj.record_count>1?aaobj.record[i].sec + "\t":"") + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"") + "\r\n";
+		aa2233 += "<sup><font style=\"font-family:Times New Roman\">" + (aaobj.record_count>1?aaobj.record[i].sec:"") + "</font></sup>" + aaobj.record[i].bible_text.replace(/[\u3000\u000A\u000D]+/g,"").replace(/<[0-9A-Za-z/]*>/g,"").replace(/【[0-9A-Za-z/]*】/g,"");
+	}
+	aa2233 += "」" + "\t";
+    //aa2234 = aa2234.replace(/[\u3000\u000A\u000D]+/g,"");
+    aa2234 = aa2234.replace(/─/g,"——");
+    aa2234 = aa2234.replace(/<[0-9A-Za-z/]*>/g,"");
+    aa2234 = aa2234.replace(/【[0-9A-Za-z/]*】/g,"");
+    aa2234 = aa2234.replace(/上帝/g,"神");
+    aa2233 = aa2233.replace(/─/g,"——");
+    aa2233 = aa2233.replace(/上帝/g,"神");
+
+    document.getElementById("context").innerHTML = aa2234;
+    
+	
+	aa2235 = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + " (" + tttt[document.getElementById("version").value] + ")";
+	
+	aa2236 = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + "<font style=\"font-family:'Times New Roman'\">" + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + "</font>(" + tttt[document.getElementById("version").value] + ")";
+	
+	document.getElementById("title").value = aa2235;
+	
+	document.getElementById("doccontext").innerHTML = "<font style=\"font-size:12pt\">" + aa2233 + "<b><u>" + aa2236 + "</u></b></font></font>" + aa2237;
+	
+	document.getElementById("titleEn").value = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1-" + (1+aaobj.record_count-1):document.getElementById("sec").value) + " (" + document.getElementById("versionBG").value + ")";
+}
+    
+//https://www.biblegateway.com/verse/en/matt6:9
+function loadDocEn1() {
+    
+    bbbb = "https://www.biblegateway.com/verse/en/" + bbbbEn[document.getElementById("chineses").value] + (document.getElementById("chap").value!=""? document.getElementById("chap").value:"1") + ":" + (document.getElementById("sec").value!=""?document.getElementById("sec").value:"1");
+    
+    //tttt[document.getElementById("version").value]
+    window.open(bbbb, "iframe_bg");
+    
+	document.getElementById("BGlink").setAttribute("href", bbbb);
+	
+    document.getElementById("titleEn").value = document.getElementById("chineses").value.replace("一","壹").replace("二","貳").replace("三","叁") + (document.getElementById("chap").value==""?"一":(document.getElementById("chap").value<100?numberConvertToUppercase(document.getElementById("chap").value):numberConvertToUppercase(Math.floor(document.getElementById("chap").value/100)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value/10%10)) + numberConvertToUppercase(Math.floor(document.getElementById("chap").value%10)))) + (document.getElementById("sec").value==""?"1":document.getElementById("sec").value) + " (" + document.getElementById("versionBG").value + ")";
+}
+    
+function loadDocEn() {
+    
+    bbbb = "https://www.biblegateway.com/passage/?search=" + bbbbEn[document.getElementById("chineses").value] + document.getElementById("chap").value + (document.getElementById("sec").value!=""?":" + document.getElementById("sec").value:"") + "&version=" + document.getElementById("versionBG").value + "&interface=print";
+    
+    //tttt[document.getElementById("version").value]
+    window.open(bbbb, "iframe_bg");
+	
+	document.getElementById("BGlink").setAttribute("href", bbbb);
+    
+    
+}
+    
+//- 小写数字转换成大写, 只处理到[0 ~ 99]
+  function numberConvertToUppercase(num) {
+    
+      var upperCaseNumber = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九', '十'];
+      var length = String(num).length;
+      if (length == 1) {
+        return upperCaseNumber[num];
+      } else if (length == 2) {
+        if (num == 10) {
+          return upperCaseNumber[num];
+        } else if (num > 10 && num < 20) {
+          return '十' + upperCaseNumber[String(num).charAt(1)];
+        } else {
+          return upperCaseNumber[String(num).charAt(0)] + '十' + upperCaseNumber[String(num).charAt(1)].replace('零', '');
+        }
+      }
+    
+  }
+
+	//HttpContext.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+    
+    document.getElementById("chap").addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("loadlah").click();
+        }
+    });
+    document.getElementById("sec").addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("loadlah").click();
+        }
+    });
+    document.getElementById("version").addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("loadlah").click();
+        }
+    });
+    document.getElementById("chineses").addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("loadlah").click();
+        }
+    });
+    document.getElementById("version2").addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("loadlah").click();
+        }
+    });
+    document.getElementById("version3").addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("loadlah").click();
+        }
+    });
+      document.getElementById("version4").addEventListener("keypress", function(event) {
+        // If the user presses the "Enter" key on the keyboard
+        if (event.key === "Enter") {
+            // Cancel the default action, if needed
+            event.preventDefault();
+            // Trigger the button element with a click
+            document.getElementById("loadlah").click();
+        }
+    });
+    
+	
+	
+function ct1() {
+    var copyText = document.getElementById("title");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+function cc1() {
+    var copyText = document.getElementById("context");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+function ct2() {
+    var copyText = document.getElementById("title2");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+function cc2() {
+    var copyText = document.getElementById("context2");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+function ct3() {
+    var copyText = document.getElementById("title3");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+function cc3() {
+    var copyText = document.getElementById("context3");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+ function ct4() {
+    var copyText = document.getElementById("title4");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+function cc4() {
+    var copyText = document.getElementById("context4");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+ 
+function cc1d() {
+    var copyText = document.getElementById("doccontext");
+	// Select the text field
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); // For mobile devices
+	// Copy the text inside the text field
+	navigator.clipboard.writeText(copyText.value);
+}
+ 
+	var map = {
+        "零": 0,"一": 1,"二": 2,"三": 3,"四": 4,
+        "五": 5,"六": 6,"七": 7,"八": 8,"九": 9,
+        "十": 10,"廿": 20,"卅": 30,"百": 100,
+    };
+    
+
+    function numberDigit(chinese_number) {
+		// TO-DO: version placeholder="123-45-678"
+        var len = chinese_number.length;
+		console.log(len);
+        if (len == 0) return -1;
+        if (len == 1) return (map[chinese_number] < 100) ? map[chinese_number] : -1;
+		if (len == 3 && map[chinese_number[0]] == 1) return (map[chinese_number[0]] * 100 + map[chinese_number[1]] * 10 + map[chinese_number[2]]);
+        var summary = 0;
+        if (map[chinese_number[0]] == 10) {
+            chinese_number = "一" + chinese_number;
+            len++;
+        }
+        if (map[chinese_number[0]] == 20) {
+            chinese_number = "二十" + chinese_number.substr(1);
+            len++;
+        }
+        if (map[chinese_number[0]] == 30) {
+            chinese_number = "三十" + chinese_number.substr(1);
+            len++;
+        }
+        if (len >= 3 && map[chinese_number[len - 1]] < 10) {
+            var last_second_num = map[chinese_number[len - 2]];
+            if (last_second_num == 100) {
+                for (var key in map) {
+                    if (map[key] == last_second_num / 10) {
+                        chinese_number += key;
+                        len += key.length;
+                        break;
+                    }
+                }
+            }
+        }
+
+        var i = 0;
+        while (i < len) {
+            var first_char_num = map[chinese_number[i]];
+            var second_char_num = map[chinese_number[i + 1]];
+            if (second_char_num > 9)
+                summary += first_char_num * second_char_num;
+            i++;
+            if (i == len)
+                summary += first_char_num <= 9 ? first_char_num : 0;
+        }
+        return summary;
+    }
+	
+
+
+	function ppppp() {
+		
+		var title_text;
+		title_text = document.getElementById("manin").value;
+		
+		var c0 = 0, c1 = 0;
+		var bk_text;
+		var chap_text;
+		var sec_text;
+		var chap_num = 0;
+		if(title_text[1] == "上" || title_text[1] == "下" || title_text[1] == "前" || title_text[1] == "後" || title_text[1] == "壹" || title_text[1] == "貳" || title_text[1] == "叁") {
+			bk_text = title_text.substring(0,2).replace("壹","一").replace("貳","二").replace("叁","三");
+			c0 = 2;
+		} else {
+			bk_text = title_text[0];
+			c0 = 1;			
+		}
+		
+		c1 = title_text.search(/[0-9]/);
+		chap_text = title_text.substring(c0, c1);
+		sec_text = title_text.substring(c1);
+		//console.log(c0 + "|" + c1);
+		console.log(bk_text);
+		console.log(chap_text);
+		console.log(sec_text);
+		
+		chap_num = numberDigit(chap_text);
+		
+		try {
+		  c0 = sec_text.search("(");
+		  console.log(c0);
+		}
+		catch(err) {
+		  c0 = 999;
+		}
+		console.log(c0);
+		if(c0<999) {
+			
+			console.log(sec_text.length-1);
+			ver_text = sec_text(c0, sec_text.length-1)
+			console.log(ver_text);
+			document.getElementById("version").value = yyyy[ver_text];
+		} 
+		
+		
+		
+		document.getElementById("chineses").value = bk_text;
+		document.getElementById("chap").value = chap_num;
+		document.getElementById("sec").value = sec_text.substring(0,c0).replace(/[^0-9\-]+/,"");
+		
+		document.getElementById("manin").value = "";
+		
+		// TO-DO: find version, yyyy[ver_text]
+		
+		loadDoc();
+		
+	}
+	
+</script>
+
+
+<!-- New Tool End 
+
+<br /><br /><hr /><br /><br />
+
+
+<p><strong>中文</strong></p>
+<p>新標點和合本</p>
+<form name="CUVNP" method="get" action="http://cb.fhl.net/v1/read.php">
+	<input type="hidden" name="VERSION2" value="nstrunv" />
+  <input type="hidden" name="TABFLAG" value="2" />
+    
+  <p>
+    <SELECT NAME="chineses">
+      <option disabled="disabled"="disabled="disabled"" selected="selected"="selected="selected"">-----經卷-----</option>
+      <option disabled="disabled"="disabled="disabled"">---舊約---</option>
+  <OPTION  VALUE="創">創世記</option>
+    <OPTION  VALUE="出">出埃及記</option>
+      <OPTION  VALUE="利">利未記</option>
+      <OPTION  VALUE="民">民數記</option>
+      <OPTION  VALUE="申">申命記</option>
+      <OPTION  VALUE="書">約書亞記</option>
+      <OPTION  VALUE="士">士師記</option>
+      <OPTION  VALUE="得">路得記</option>
+      <OPTION  VALUE="撒上">撒母耳記上</option>
+      <OPTION  VALUE="撒下">撒母耳記下</option>
+      <OPTION  VALUE="王上">列王紀上</option>
+      <OPTION  VALUE="王下">列王紀下</option>
+      <OPTION  VALUE="代上">歷代志上</option>
+      <OPTION  VALUE="代下">歷代志下</option>
+      <OPTION  VALUE="拉">以斯拉記</option>
+      <OPTION  VALUE="尼">尼希米記</option>
+      <OPTION  VALUE="斯">以斯帖記</option>
+      <OPTION  VALUE="伯">約伯記</option>
+      <OPTION  VALUE="詩">詩篇</option>
+      <OPTION  VALUE="箴">箴言</option>
+      <OPTION  VALUE="傳">傳道書</option>
+      <OPTION  VALUE="歌">雅歌</option>
+      <OPTION  VALUE="賽">以賽亞書</option>
+      <OPTION  VALUE="耶">耶利米書</option>
+      <OPTION  VALUE="哀">耶利米哀歌</option>
+      <OPTION  VALUE="結">以西結書</option>
+      <OPTION  VALUE="但">但以理書</option>
+      <OPTION  VALUE="何">何西阿書</option>
+      <OPTION  VALUE="珥">約珥書</option>
+      <OPTION  VALUE="摩">阿摩司書</option>
+      <OPTION  VALUE="俄">俄巴底亞書</option>
+      <OPTION  VALUE="拿">約拿書</option>
+      <OPTION  VALUE="彌">彌迦書</option>
+      <OPTION  VALUE="鴻">那鴻書</option>
+      <OPTION  VALUE="哈">哈巴谷書</option>
+      <OPTION  VALUE="番">西番雅書</option>
+      <OPTION  VALUE="該">哈該書</option>
+      <OPTION  VALUE="亞">撒迦利亞書</option>
+      <OPTION  VALUE="瑪">瑪拉基書</option>
+      <option disabled="disabled"="disabled="disabled"">---新約---</option>
+	<OPTION  VALUE="太">馬太福音</option>
+    <OPTION  VALUE="可">馬可福音</option>
+      <OPTION  VALUE="路">路加福音</option>
+      <OPTION  VALUE="約">約翰福音</option>
+      <OPTION  VALUE="徒">使徒行傳</option>
+      <OPTION  VALUE="羅">羅馬書</option>
+      <OPTION  VALUE="林前">哥林多前書</option>
+      <OPTION  VALUE="林後">哥林多後書</option>
+      <OPTION  VALUE="加">加拉太書</option>
+      <OPTION  VALUE="弗">以弗所書</option>
+      <OPTION  VALUE="腓">腓立比書</option>
+      <OPTION  VALUE="西">歌羅西書</option>
+      <OPTION  VALUE="帖前">帖撒羅尼迦前書</option>
+      <OPTION  VALUE="帖後">帖撒羅尼迦後書</option>
+      <OPTION  VALUE="提前">提摩太前書</option>
+      <OPTION  VALUE="提後">提摩太後書</option>
+      <OPTION  VALUE="多">提多書</option>
+      <OPTION  VALUE="門">腓利門書</option>
+      <OPTION  VALUE="來">希伯來書</option>
+      <OPTION  VALUE="雅">雅各書</option>
+      <OPTION  VALUE="彼前">彼得前書</option>
+      <OPTION  VALUE="彼後">彼得後書</option>
+      <OPTION  VALUE="約一">約翰壹書</option>
+      <OPTION  VALUE="約二">約翰貳書</option>
+      <OPTION  VALUE="約三">約翰參書</option>
+      <OPTION  VALUE="猶">猶大書</option>
+      <OPTION  VALUE="啟">啟示錄</option>
+    </SELECT> 
+    第
+    <input name="chap" type="text" value="1" size="5" maxlength="3" /> 
+    章/篇
+  <input type="submit" value="Go">
+  </p>
+</form>
+
+<p>現中修訂版</p>
+<form name="TCV" method="get" action="http://cb.fhl.net/v1/read.php">
+
+    <input type="hidden" name="VERSION2" value="tcv">
+	<input type="hidden" name="TABFLAG" value="2">
+    
+  <p>
+    <SELECT NAME="chineses">
+      <option disabled="disabled"="disabled="disabled"" selected="selected"="selected="selected"">-----經卷-----</option>
+      <option disabled="disabled"="disabled="disabled"">---舊約---</option>
+  <OPTION  VALUE="創">創世記</option>
+    <OPTION  VALUE="出">出埃及記</option>
+      <OPTION  VALUE="利">利未記</option>
+      <OPTION  VALUE="民">民數記</option>
+      <OPTION  VALUE="申">申命記</option>
+      <OPTION  VALUE="書">約書亞記</option>
+      <OPTION  VALUE="士">士師記</option>
+      <OPTION  VALUE="得">路得記</option>
+      <OPTION  VALUE="撒上">撒母耳記上</option>
+      <OPTION  VALUE="撒下">撒母耳記下</option>
+      <OPTION  VALUE="王上">列王紀上</option>
+      <OPTION  VALUE="王下">列王紀下</option>
+      <OPTION  VALUE="代上">歷代志上</option>
+      <OPTION  VALUE="代下">歷代志下</option>
+      <OPTION  VALUE="拉">以斯拉記</option>
+      <OPTION  VALUE="尼">尼希米記</option>
+      <OPTION  VALUE="斯">以斯帖記</option>
+      <OPTION  VALUE="伯">約伯記</option>
+      <OPTION  VALUE="詩">詩篇</option>
+      <OPTION  VALUE="箴">箴言</option>
+      <OPTION  VALUE="傳">傳道書</option>
+      <OPTION  VALUE="歌">雅歌</option>
+      <OPTION  VALUE="賽">以賽亞書</option>
+      <OPTION  VALUE="耶">耶利米書</option>
+      <OPTION  VALUE="哀">耶利米哀歌</option>
+      <OPTION  VALUE="結">以西結書</option>
+      <OPTION  VALUE="但">但以理書</option>
+      <OPTION  VALUE="何">何西阿書</option>
+      <OPTION  VALUE="珥">約珥書</option>
+      <OPTION  VALUE="摩">阿摩司書</option>
+      <OPTION  VALUE="俄">俄巴底亞書</option>
+      <OPTION  VALUE="拿">約拿書</option>
+      <OPTION  VALUE="彌">彌迦書</option>
+      <OPTION  VALUE="鴻">那鴻書</option>
+      <OPTION  VALUE="哈">哈巴谷書</option>
+      <OPTION  VALUE="番">西番雅書</option>
+      <OPTION  VALUE="該">哈該書</option>
+      <OPTION  VALUE="亞">撒迦利亞書</option>
+      <OPTION  VALUE="瑪">瑪拉基書</option>
+      <option disabled="disabled"="disabled="disabled"">---新約---</option>
+	<OPTION  VALUE="太">馬太福音</option>
+    <OPTION  VALUE="可">馬可福音</option>
+      <OPTION  VALUE="路">路加福音</option>
+      <OPTION  VALUE="約">約翰福音</option>
+      <OPTION  VALUE="徒">使徒行傳</option>
+      <OPTION  VALUE="羅">羅馬書</option>
+      <OPTION  VALUE="林前">哥林多前書</option>
+      <OPTION  VALUE="林後">哥林多後書</option>
+      <OPTION  VALUE="加">加拉太書</option>
+      <OPTION  VALUE="弗">以弗所書</option>
+      <OPTION  VALUE="腓">腓立比書</option>
+      <OPTION  VALUE="西">歌羅西書</option>
+      <OPTION  VALUE="帖前">帖撒羅尼迦前書</option>
+      <OPTION  VALUE="帖後">帖撒羅尼迦後書</option>
+      <OPTION  VALUE="提前">提摩太前書</option>
+      <OPTION  VALUE="提後">提摩太後書</option>
+      <OPTION  VALUE="多">提多書</option>
+      <OPTION  VALUE="門">腓利門書</option>
+      <OPTION  VALUE="來">希伯來書</option>
+      <OPTION  VALUE="雅">雅各書</option>
+      <OPTION  VALUE="彼前">彼得前書</option>
+      <OPTION  VALUE="彼後">彼得後書</option>
+      <OPTION  VALUE="約一">約翰壹書</option>
+      <OPTION  VALUE="約二">約翰貳書</option>
+      <OPTION  VALUE="約三">約翰參書</option>
+      <OPTION  VALUE="猶">猶大書</option>
+      <OPTION  VALUE="啟">啟示錄</option>
+    </SELECT> 
+    第
+    <input name="chap" type="text" value="1" size="5" maxlength="3" /> 
+    章/篇
+  <input type="submit" value="Go">
+  </p>
+</form>
+<p>和合本修訂版[和修]</p>
+<form name="RCUV" method="get" action="http://rcuv.hkbs.org.hk/bible_list.php">
+
+    <input type="hidden" name="chk_version" value="RCUV">
+    <input type="hidden" name="godVersionOption" value="god2">
+    <input type="hidden" name="displayOption" value="p">
+  <p>
+    <SELECT NAME="bible">
+      <option disabled="disabled"="disabled="disabled"" selected="selected"="selected="selected"">-----經卷-----</option>
+      <option disabled="disabled"="disabled="disabled"">---舊約---</option>
+      <option value='GEN'>創世記 </option><option value='EXO'>出埃及記 </option><option value='LEV'>利未記 </option><option value='NUM'>民數記 </option><option value='DEU'>申命記 </option><option value='JOS'>約書亞記 </option><option value='JDG'>士師記 </option><option value='RUT'>路得記 </option><option value='1SA'>撒母耳記上 </option><option value='2SA'>撒母耳記下 </option><option value='1KI'>列王紀上 </option><option value='2KI'>列王紀下 </option><option value='1CH'>歷代誌上 </option><option value='2CH'>歷代誌下 </option><option value='EZR'>以斯拉記 </option><option value='NEH'>尼希米記 </option><option value='EST'>以斯帖記 </option><option value='JOB'>約伯記 </option><option value='PSA'>詩篇 </option><option value='PRO'>箴言 </option><option value='ECC'>傳道書 </option><option value='SNG'>雅歌 </option><option value='ISA'>以賽亞書 </option><option value='JER'>耶利米書 </option><option value='LAM'>耶利米哀歌 </option><option value='EZK'>以西結書 </option><option value='DAN'>但以理書 </option><option value='HOS'>何西阿書 </option><option value='JOL'>約珥書 </option><option value='AMO'>阿摩司書 </option><option value='OBA'>俄巴底亞書 </option><option value='JON'>約拿書 </option><option value='MIC'>彌迦書 </option><option value='NAM'>那鴻書 </option><option value='HAB'>哈巴穀書 </option><option value='ZEP'>西番雅書 </option><option value='HAG'>哈該書 </option><option value='ZEC'>撒迦利亞書 </option><option value='MAL'>瑪拉基書 </option>
+      <option disabled="disabled"="disabled="disabled"">---新約---</option>
+      <option value='MAT'>馬太福音 </option><option value='MRK'>馬可福音 </option><option value='LUK'>路加福音 </option><option value='JHN'>約翰福音 </option><option value='ACT'>使徒行傳 </option><option value='ROM'>羅馬書 </option><option value='1CO'>哥林多前書 </option><option value='2CO'>哥林多後書 </option><option value='GAL'>加拉太書 </option><option value='EPH'>以弗所書 </option><option value='PHP'>腓立比書 </option><option value='COL'>歌羅西書 </option><option value='1TH'>帖撒羅尼迦前書 </option><option value='2TH'>帖撒羅尼迦後書 </option><option value='1TI'>提摩太前書 </option><option value='2TI'>提摩太後書 </option><option value='TIT'>提多書 </option><option value='PHM'>腓利門書 </option><option value='HEB'>希伯來書 </option><option value='JAS'>雅各書 </option><option value='1PE'>彼得前書 </option><option value='2PE'>彼得後書 </option><option value='1JN'>約翰一書 </option><option value='2JN'>約翰二書 </option><option value='3JN'>約翰三書 </option><option value='JUD'>猶大書 </option><option value='REV'>啟示錄 </option>    </SELECT> 
+    第
+    <input name="chapter" type="text" value="1" size="5" maxlength="3" /> 
+    章/篇
+  <input type="submit" value="Go">
+  </p>
+</form>
+<p>新譯本</p>
+<form name="NCV" method="get" action="http://www.almega.com.hk/bible/bible.asp" onsubmit="ncv()">
+
+    <input type="hidden" name="BibleID" value="NCB">
+	<input type="hidden" name="Site" value="wbs">
+    <input type="hidden" name="f_FontSize" value="S" />
+    <input type="hidden" name="BCVNO">
+  <p>
+    <SELECT NAME="book">
+      <option disabled="disabled"="disabled="disabled"" selected="selected"="selected="selected"">-----經卷-----</option>
+      <option disabled="disabled"="disabled="disabled"">---舊約---</option>
+      <option value="1">創世記</option>
+      <option value="2">出埃及記</option>
+      <option value="3">利未記</option>
+      <option value="4">民數記</option>
+      <option value="5">申命記</option>
+      <option value="6">約書亞記</option>
+      <option value="7">士師記</option>
+      <option value="8">路得記</option>
+      <option value="9">撒母耳記上</option>
+      <option value="10">撒母耳記下</option>
+      <option value="11">列王紀上</option>
+      <option value="12">列王紀下</option>
+      <option value="13">歷代志上</option>
+      <option value="14">歷代志下</option>
+      <option value="15">以斯拉記</option>
+      <option value="16">尼希米記</option>
+      <option value="17">以斯帖記</option>
+      <option value="18">約伯記</option>
+      <option value="19">詩篇</option>
+      <option value="20">箴言</option>
+      <option value="21">傳道書</option>
+      <option value="22">雅歌</option>
+      <option value="23">以賽亞書</option>
+      <option value="24">耶利米書</option>
+      <option value="25">耶利米哀歌</option>
+      <option value="26">以西結書</option>
+      <option value="27">但以理書</option>
+      <option value="28">何西阿書</option>
+      <option value="29">約珥書</option>
+      <option value="30">阿摩司書</option>
+      <option value="31">俄巴底亞書</option>
+      <option value="32">約拿書</option>
+      <option value="33">彌迦書</option>
+      <option value="34">那鴻書</option>
+      <option value="35">哈巴谷書</option>
+      <option value="36">西番雅書</option>
+      <option value="37">哈該書</option>
+      <option value="38">撒迦利亞書</option>
+      <option value="39">瑪拉基書</option>
+      <option disabled="disabled"="disabled="disabled"">---新約---</option>
+      <option value="40">馬太福音</option>
+      <option value="41">馬可福音</option>
+      <option value="42">路加福音</option>
+      <option value="43">約翰福音</option>
+      <option value="44">使徒行傳</option>
+      <option value="45">羅馬書</option>
+      <option value="46">哥林多前書</option>
+      <option value="47">哥林多後書</option>
+      <option value="48">加拉太書</option>
+      <option value="49">以弗所書</option>
+      <option value="50">腓立比書</option>
+      <option value="51">歌羅西書</option>
+      <option value="52">帖撒羅尼迦前書</option>
+      <option value="53">帖撒羅尼迦後書</option>
+      <option value="54">提摩太前書</option>
+      <option value="55">提摩太後書</option>
+      <option value="56">提多書</option>
+      <option value="57">腓利門書</option>
+      <option value="58">希伯來書</option>
+      <option value="59">雅各書</option>
+      <option value="60">彼得前書</option>
+      <option value="61">彼得後書</option>
+      <option value="62">約翰一書</option>
+      <option value="63">約翰二書</option>
+      <option value="64">約翰三書</option>
+      <option value="65">猶大書</option>
+      <option value="66">啟示錄</option>    </SELECT> 
+    第
+    <input name="chap" type="text" value="1" size="5" maxlength="3" /> 
+    章/篇
+  <input type="submit" value="Go">
+  </p>
+</form>
+<p>&nbsp;</p>
+<p><strong>英文</strong></p>
+<p>NIV[New International Version, 新國際譯本]</p>
+<form name="NIV" method="get" action="http://www.biblica.com/bibles/chapter/" onsubmit="niv()">
+
+    <input type="hidden" name="version" value="niv">
+    <input type="hidden" name="verse">
+  <p>
+    <SELECT NAME="book">
+      <option disabled="disabled"="disabled="disabled"" selected="selected"="selected="selected"">-----經卷-----</option>
+      <option disabled="disabled"="disabled="disabled"">---舊約---</option>
+      <option value="Genesis">創世記(Genesis)</option>
+      <option value="Exodus">出埃及記(Exodus)</option>
+      <option value="Leviticus">利未記(Leviticus)</option>
+      <option value="Numbers">民數記(Numbers)</option>
+      <option value="Deuteronomy">申命記(Deuteronomy)</option>
+      <option value="Joshua">約書亞記(Joshua)</option>
+      <option value="Judges">士師記(Judges)</option>
+      <option value="Ruth">路得記(Ruth)</option>
+      <option value="1 Samuel">撒母耳記上(1 Samuel)</option>
+      <option value="2 Samuel">撒母耳記下(2 Samuel)</option>
+      <option value="1 Kings">列王紀上(1 Kings)</option>
+      <option value="2 Kings">列王紀下(2 Kings)</option>
+      <option value="1 Chronicles">歷代志上(1 Chronicles)</option>
+      <option value="2 Chronicles">歷代志下(2 Chronicles)</option>
+      <option value="Ezra">以斯拉記(Ezra)</option>
+      <option value="Nehemiah">尼希米記(Nehemiah)</option>
+      <option value="Esther">以斯帖記(Esther)</option>
+      <option value="Job">約伯記(Job)</option>
+      <option value="Psalms">詩篇(Psalms)</option>
+      <option value="Proverbs">箴言(Proverbs)</option>
+      <option value="Ecclesiastes">傳道書(Ecclesiastes)</option>
+      <option value="Song Of Solomon">雅歌(Song Of Solomon)</option>
+      <option value="Isaiah">以賽亞書(Isaiah)</option>
+      <option value="Jeremiah">耶利米書(Jeremiah)</option>
+      <option value="Lamentations">耶利米哀歌(Lamentations)</option>
+      <option value="Ezekiel">以西結書(Ezekiel)</option>
+      <option value="Daniel">但以理書(Daniel)</option>
+      <option value="Hosea">何西阿書(Hosea)</option>
+      <option value="Joel">約珥書(Joel)</option>
+      <option value="Amos">阿摩司書(Amos)</option>
+      <option value="Obadiah">俄巴底亞書(Obadiah)</option>
+      <option value="Jonah">約拿書(Jonah)</option>
+      <option value="Micah">彌迦書(Micah)</option>
+      <option value="Nahum">那鴻書(Nahum)</option>
+      <option value="Habakkuk">哈巴谷書(Habakkuk)</option>
+      <option value="Zephaniah">西番雅書(Zephaniah)</option>
+      <option value="Haggai">哈該書(Haggai)</option>
+      <option value="Zechariah">撒迦利亞書(Zechariah)</option>
+      <option value="Malachi">瑪拉基書(Malachi)</option>
+      <option disabled="disabled"="disabled="disabled"">---新約---</option>
+      <option value="Matthew">馬太福音(Matthew)</option>
+      <option value="Mark">馬可福音(Mark)</option>
+      <option value="Luke">路加福音(Luke)</option>
+      <option value="John">約翰福音(John)</option>
+      <option value="Acts">使徒行傳(Acts)</option>
+      <option value="Romans">羅馬書(Romans)</option>
+      <option value="1 Corinthians">哥林多前書(1 Corinthians)</option>
+      <option value="2 Corinthians">哥林多後書(2 Corinthians)</option>
+      <option value="Galatians">加拉太書(Galatians)</option>
+      <option value="Ephesians">以弗所書(Ephesians)</option>
+      <option value="Philippians">腓立比書(Philippians)</option>
+      <option value="Colossians">歌羅西書(Colossians)</option>
+      <option value="1 Thessalonians">帖撒羅尼迦前書(1 Thessalonians)</option>
+      <option value="2 Thessalonians">帖撒羅尼迦後書(1 Thessalonians)</option>
+      <option value="1 Timothy">提摩太前書(1 Timothy)</option>
+      <option value="2 Timothy">提摩太後書(2 Timothy)</option>
+      <option value="Titus">提多書(Titus)</option>
+      <option value="Philemon">腓利門書(Philemon)</option>
+      <option value="Hebrews">希伯來書(Hebrews)</option>
+      <option value="James">雅各書(James)</option>
+      <option value="1 Peter">彼得前書(1 Peter)</option>
+      <option value="2 Peter">彼得後書(2 Peter)</option>
+      <option value="1 John">約翰一書(1 John)</option>
+      <option value="2 John">約翰二書(2 John)</option>
+      <option value="3 John">約翰三書(3 John)</option>
+      <option value="Jude">猶大書(Jude)</option>
+      <option value="Revelation">啟示錄(Revelation)</option>    </SELECT> 
+    第
+    <input name="chap" type="text" value="1" size="5" maxlength="3" /> 
+    章/篇
+  <input type="submit" value="Go">
+  </p>
+</form>
+<p>KJV [King James Version, 欽定本]</p>
+<form name="KJV" method="get" action="http://www.biblica.com/bibles/chapter/" onsubmit="kjv()">
+
+    <input type="hidden" name="version" value="kjv">
+    <input type="hidden" name="verse">
+  <p>
+    <SELECT NAME="book">
+      <option disabled="disabled"="disabled="disabled"" selected="selected"="selected="selected"">-----經卷-----</option>
+      <option disabled="disabled"="disabled="disabled"">---舊約---</option>
+      <option value="Genesis">創世記(Genesis)</option>
+      <option value="Exodus">出埃及記(Exodus)</option>
+      <option value="Leviticus">利未記(Leviticus)</option>
+      <option value="Numbers">民數記(Numbers)</option>
+      <option value="Deuteronomy">申命記(Deuteronomy)</option>
+      <option value="Joshua">約書亞記(Joshua)</option>
+      <option value="Judges">士師記(Judges)</option>
+      <option value="Ruth">路得記(Ruth)</option>
+      <option value="1 Samuel">撒母耳記上(1 Samuel)</option>
+      <option value="2 Samuel">撒母耳記下(2 Samuel)</option>
+      <option value="1 Kings">列王紀上(1 Kings)</option>
+      <option value="2 Kings">列王紀下(2 Kings)</option>
+      <option value="1 Chronicles">歷代志上(1 Chronicles)</option>
+      <option value="2 Chronicles">歷代志下(2 Chronicles)</option>
+      <option value="Ezra">以斯拉記(Ezra)</option>
+      <option value="Nehemiah">尼希米記(Nehemiah)</option>
+      <option value="Esther">以斯帖記(Esther)</option>
+      <option value="Job">約伯記(Job)</option>
+      <option value="Psalms">詩篇(Psalms)</option>
+      <option value="Proverbs">箴言(Proverbs)</option>
+      <option value="Ecclesiastes">傳道書(Ecclesiastes)</option>
+      <option value="Song Of Solomon">雅歌(Song Of Solomon)</option>
+      <option value="Isaiah">以賽亞書(Isaiah)</option>
+      <option value="Jeremiah">耶利米書(Jeremiah)</option>
+      <option value="Lamentations">耶利米哀歌(Lamentations)</option>
+      <option value="Ezekiel">以西結書(Ezekiel)</option>
+      <option value="Daniel">但以理書(Daniel)</option>
+      <option value="Hosea">何西阿書(Hosea)</option>
+      <option value="Joel">約珥書(Joel)</option>
+      <option value="Amos">阿摩司書(Amos)</option>
+      <option value="Obadiah">俄巴底亞書(Obadiah)</option>
+      <option value="Jonah">約拿書(Jonah)</option>
+      <option value="Micah">彌迦書(Micah)</option>
+      <option value="Nahum">那鴻書(Nahum)</option>
+      <option value="Habakkuk">哈巴谷書(Habakkuk)</option>
+      <option value="Zephaniah">西番雅書(Zephaniah)</option>
+      <option value="Haggai">哈該書(Haggai)</option>
+      <option value="Zechariah">撒迦利亞書(Zechariah)</option>
+      <option value="Malachi">瑪拉基書(Malachi)</option>
+      <option disabled="disabled"="disabled="disabled"">---新約---</option>
+      <option value="Matthew">馬太福音(Matthew)</option>
+      <option value="Mark">馬可福音(Mark)</option>
+      <option value="Luke">路加福音(Luke)</option>
+      <option value="John">約翰福音(John)</option>
+      <option value="Acts">使徒行傳(Acts)</option>
+      <option value="Romans">羅馬書(Romans)</option>
+      <option value="1 Corinthians">哥林多前書(1 Corinthians)</option>
+      <option value="2 Corinthians">哥林多後書(2 Corinthians)</option>
+      <option value="Galatians">加拉太書(Galatians)</option>
+      <option value="Ephesians">以弗所書(Ephesians)</option>
+      <option value="Philippians">腓立比書(Philippians)</option>
+      <option value="Colossians">歌羅西書(Colossians)</option>
+      <option value="1 Thessalonians">帖撒羅尼迦前書(1 Thessalonians)</option>
+      <option value="2 Thessalonians">帖撒羅尼迦後書(1 Thessalonians)</option>
+      <option value="1 Timothy">提摩太前書(1 Timothy)</option>
+      <option value="2 Timothy">提摩太後書(2 Timothy)</option>
+      <option value="Titus">提多書(Titus)</option>
+      <option value="Philemon">腓利門書(Philemon)</option>
+      <option value="Hebrews">希伯來書(Hebrews)</option>
+      <option value="James">雅各書(James)</option>
+      <option value="1 Peter">彼得前書(1 Peter)</option>
+      <option value="2 Peter">彼得後書(2 Peter)</option>
+      <option value="1 John">約翰一書(1 John)</option>
+      <option value="2 John">約翰二書(2 John)</option>
+      <option value="3 John">約翰三書(3 John)</option>
+      <option value="Jude">猶大書(Jude)</option>
+      <option value="Revelation">啟示錄(Revelation)</option>    </SELECT> 
+    第
+    <input name="chap" type="text" value="1" size="5" maxlength="3" /> 
+    章/篇
+  <input type="submit" value="Go">
+  </p>
+</form>
+
+<p>AMP [Amplified]</p>
+<form name="AMP" method="get" action="http://www.biblica.com/bibles/chapter/" onsubmit="amp()">
+
+    <input type="hidden" name="version" value="amp">
+    <input type="hidden" name="verse">
+  <p>
+    <SELECT NAME="book">
+      <option disabled="disabled"="disabled="disabled"" selected="selected"="selected="selected"">-----經卷-----</option>
+      <option disabled="disabled"="disabled="disabled"">---舊約---</option>
+      <option value="Genesis">創世記(Genesis)</option>
+      <option value="Exodus">出埃及記(Exodus)</option>
+      <option value="Leviticus">利未記(Leviticus)</option>
+      <option value="Numbers">民數記(Numbers)</option>
+      <option value="Deuteronomy">申命記(Deuteronomy)</option>
+      <option value="Joshua">約書亞記(Joshua)</option>
+      <option value="Judges">士師記(Judges)</option>
+      <option value="Ruth">路得記(Ruth)</option>
+      <option value="1 Samuel">撒母耳記上(1 Samuel)</option>
+      <option value="2 Samuel">撒母耳記下(2 Samuel)</option>
+      <option value="1 Kings">列王紀上(1 Kings)</option>
+      <option value="2 Kings">列王紀下(2 Kings)</option>
+      <option value="1 Chronicles">歷代志上(1 Chronicles)</option>
+      <option value="2 Chronicles">歷代志下(2 Chronicles)</option>
+      <option value="Ezra">以斯拉記(Ezra)</option>
+      <option value="Nehemiah">尼希米記(Nehemiah)</option>
+      <option value="Esther">以斯帖記(Esther)</option>
+      <option value="Job">約伯記(Job)</option>
+      <option value="Psalms">詩篇(Psalms)</option>
+      <option value="Proverbs">箴言(Proverbs)</option>
+      <option value="Ecclesiastes">傳道書(Ecclesiastes)</option>
+      <option value="Song Of Solomon">雅歌(Song Of Solomon)</option>
+      <option value="Isaiah">以賽亞書(Isaiah)</option>
+      <option value="Jeremiah">耶利米書(Jeremiah)</option>
+      <option value="Lamentations">耶利米哀歌(Lamentations)</option>
+      <option value="Ezekiel">以西結書(Ezekiel)</option>
+      <option value="Daniel">但以理書(Daniel)</option>
+      <option value="Hosea">何西阿書(Hosea)</option>
+      <option value="Joel">約珥書(Joel)</option>
+      <option value="Amos">阿摩司書(Amos)</option>
+      <option value="Obadiah">俄巴底亞書(Obadiah)</option>
+      <option value="Jonah">約拿書(Jonah)</option>
+      <option value="Micah">彌迦書(Micah)</option>
+      <option value="Nahum">那鴻書(Nahum)</option>
+      <option value="Habakkuk">哈巴谷書(Habakkuk)</option>
+      <option value="Zephaniah">西番雅書(Zephaniah)</option>
+      <option value="Haggai">哈該書(Haggai)</option>
+      <option value="Zechariah">撒迦利亞書(Zechariah)</option>
+      <option value="Malachi">瑪拉基書(Malachi)</option>
+      <option disabled="disabled"="disabled="disabled"">---新約---</option>
+      <option value="Matthew">馬太福音(Matthew)</option>
+      <option value="Mark">馬可福音(Mark)</option>
+      <option value="Luke">路加福音(Luke)</option>
+      <option value="John">約翰福音(John)</option>
+      <option value="Acts">使徒行傳(Acts)</option>
+      <option value="Romans">羅馬書(Romans)</option>
+      <option value="1 Corinthians">哥林多前書(1 Corinthians)</option>
+      <option value="2 Corinthians">哥林多後書(2 Corinthians)</option>
+      <option value="Galatians">加拉太書(Galatians)</option>
+      <option value="Ephesians">以弗所書(Ephesians)</option>
+      <option value="Philippians">腓立比書(Philippians)</option>
+      <option value="Colossians">歌羅西書(Colossians)</option>
+      <option value="1 Thessalonians">帖撒羅尼迦前書(1 Thessalonians)</option>
+      <option value="2 Thessalonians">帖撒羅尼迦後書(1 Thessalonians)</option>
+      <option value="1 Timothy">提摩太前書(1 Timothy)</option>
+      <option value="2 Timothy">提摩太後書(2 Timothy)</option>
+      <option value="Titus">提多書(Titus)</option>
+      <option value="Philemon">腓利門書(Philemon)</option>
+      <option value="Hebrews">希伯來書(Hebrews)</option>
+      <option value="James">雅各書(James)</option>
+      <option value="1 Peter">彼得前書(1 Peter)</option>
+      <option value="2 Peter">彼得後書(2 Peter)</option>
+      <option value="1 John">約翰一書(1 John)</option>
+      <option value="2 John">約翰二書(2 John)</option>
+      <option value="3 John">約翰三書(3 John)</option>
+      <option value="Jude">猶大書(Jude)</option>
+      <option value="Revelation">啟示錄(Revelation)</option>    </SELECT> 
+    第
+    <input name="chap" type="text" value="1" size="5" maxlength="3" /> 
+    章/篇
+  <input type="submit" value="Go">
+  </p>
+</form>
+<script>
+function ncv() {
+
+document.NCV.BCVNO.value = (document.NCV.book.value *1000000) + (document.NCV.chap.value *1000);
+
+}
+
+function niv() {
+
+document.NIV.verse.value = document.NIV.book.value + " " + document.NIV.chap.value;
+
+}
+
+function kjv() {
+
+document.KJV.verse.value = document.KJV.book.value + " " + document.KJV.chap.value;
+
+}
+
+function amp() {
+
+document.AMP.verse.value = document.AMP.book.value + " " + document.AMP.chap.value;
+
+}
+</script>
+-->
+</body>
+</html>
